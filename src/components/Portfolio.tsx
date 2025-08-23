@@ -40,7 +40,7 @@ const Portfolio = () => {
     },
     {
       title: "IT Course Management System",
-      description: "Worked as a Backend Developer, designing and implementing backend services for managing IT and programming courses. Built and optimized modules for course management, campaign management, user enrollment, and payment integration, ensuring smooth operation and scalability of the system.",
+      description: "Backend developer role designing and implementing services for IT course management platform. Built modules for course management, user enrollment, and payment integration with focus on scalability.",
       image: "/api/placeholder/400/250",
       technologies: ["PHP", "Laravel", "MySQL", "APIs", "Payment Integration"],
       features: [
