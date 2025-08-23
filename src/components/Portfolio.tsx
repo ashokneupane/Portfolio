@@ -56,16 +56,16 @@ const Portfolio = () => {
       icon: <Database className="h-6 w-6" />
     },
     {
-      title: "React Task Manager",
-      description: "Modern task management application built with React and Laravel API, featuring real-time updates and team collaboration.",
+      title: "Task Flow Web App",
+      description: "Develop a full-featured task management application using React for frontend and PHP (Laravel) for backend, with drag-and-drop functionality and real-time task updates to enhance team productivity.",
       image: "/api/placeholder/400/250",
-      technologies: ["React", "Laravel", "WebSocket", "MySQL", "Redux"],
+      technologies: ["React", "Laravel", "PHP", "MySQL", "Drag & Drop"],
       features: [
-        "Real-time Collaboration",
-        "Task Assignment & Tracking",
-        "Project Management",
-        "Team Chat Integration",
-        "Progress Analytics"
+        "Drag-and-drop Task Management",
+        "Real-time Task Updates",
+        "Secure User Authentication",
+        "Robust Backend APIs",
+        "Team Productivity Enhancement"
       ],
       category: "Web Application",
       demoUrl: "#",
