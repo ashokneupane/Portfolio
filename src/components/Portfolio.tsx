@@ -39,18 +39,18 @@ const Portfolio = () => {
       icon: <Code className="h-6 w-6" />
     },
     {
-      title: "WordPress Business Site",
-      description: "Custom WordPress theme development for a consulting business with integrated booking system and client portal.",
+      title: "IT Course Management System",
+      description: "Worked as a Backend Developer, designing and implementing backend services for managing IT and programming courses. Built and optimized modules for course management, campaign management, user enrollment, and payment integration, ensuring smooth operation and scalability of the system.",
       image: "/api/placeholder/400/250",
-      technologies: ["WordPress", "PHP", "JavaScript", "CSS3", "MySQL"],
+      technologies: ["PHP", "Laravel", "MySQL", "APIs", "Payment Integration"],
       features: [
-        "Custom Theme Development",
-        "Booking System Integration",
-        "Client Portal",
-        "SEO Optimization",
-        "Mobile Responsive Design"
+        "Course Management Module",
+        "Campaign Management System",
+        "User Enrollment Processing",
+        "Payment Gateway Integration",
+        "System Scalability Optimization"
       ],
-      category: "WordPress",
+      category: "Backend Development",
       demoUrl: "#",
       githubUrl: "#",
       icon: <Database className="h-6 w-6" />
@@ -74,7 +74,7 @@ const Portfolio = () => {
     }
   ];
 
-  const categories = ["All", "Web Application", "E-Commerce", "WordPress"];
+  const categories = ["All", "Web Application", "E-Commerce", "Backend Development"];
 
   return (
     <section id="portfolio" className="section-padding">
