@@ -5,16 +5,16 @@ import { Button } from './ui/button';
 const Portfolio = () => {
   const projects = [
     {
-      title: "Kumari Job Portal",
-      description: "A comprehensive job portal platform migrated from Laravel to CodeIgniter with enhanced performance and user management features.",
+      title: "Task Flow Web App",
+      description: "Develop a full-featured task management application using React for frontend and PHP (Laravel) for backend, with drag-and-drop functionality and real-time task updates to enhance team productivity.",
       image: "/api/placeholder/400/250",
-      technologies: ["CodeIgniter", "PHP", "MySQL", "Bootstrap", "jQuery"],
+      technologies: ["React", "Laravel", "PHP", "MySQL", "Drag & Drop"],
       features: [
-        "User Registration & Profile Management",
-        "Job Listings with Advanced Search",
-        "Application Management System",
-        "Admin Panel with Analytics",
-        "Performance Optimization"
+        "Drag-and-drop Task Management",
+        "Real-time Task Updates",
+        "Secure User Authentication",
+        "Robust Backend APIs",
+        "Team Productivity Enhancement"
       ],
       category: "Web Application",
       demoUrl: "#",
@@ -39,6 +39,23 @@ const Portfolio = () => {
       icon: <Code className="h-6 w-6" />
     },
     {
+      title: "Kumari Job Portal",
+      description: "A comprehensive job portal platform migrated from Laravel to CodeIgniter with enhanced performance and user management features.",
+      image: "/api/placeholder/400/250",
+      technologies: ["CodeIgniter", "PHP", "MySQL", "Bootstrap", "jQuery"],
+      features: [
+        "User Registration & Profile Management",
+        "Job Listings with Advanced Search",
+        "Application Management System",
+        "Admin Panel with Analytics",
+        "Performance Optimization"
+      ],
+      category: "Web Application",
+      demoUrl: "#",
+      githubUrl: "#",
+      icon: <Globe className="h-6 w-6" />
+    },
+    {
       title: "IT Course Management System",
       description: "Backend developer role designing and implementing services for IT course management platform. Built modules for course management, user enrollment, and payment integration with focus on scalability.",
       image: "/api/placeholder/400/250",
@@ -54,23 +71,6 @@ const Portfolio = () => {
       demoUrl: "#",
       githubUrl: "#",
       icon: <Database className="h-6 w-6" />
-    },
-    {
-      title: "Task Flow Web App",
-      description: "Develop a full-featured task management application using React for frontend and PHP (Laravel) for backend, with drag-and-drop functionality and real-time task updates to enhance team productivity.",
-      image: "/api/placeholder/400/250",
-      technologies: ["React", "Laravel", "PHP", "MySQL", "Drag & Drop"],
-      features: [
-        "Drag-and-drop Task Management",
-        "Real-time Task Updates",
-        "Secure User Authentication",
-        "Robust Backend APIs",
-        "Team Productivity Enhancement"
-      ],
-      category: "Web Application",
-      demoUrl: "#",
-      githubUrl: "#",
-      icon: <Globe className="h-6 w-6" />
     }
   ];
 
