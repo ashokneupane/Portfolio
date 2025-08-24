@@ -1,7 +1,7 @@
 import { Button } from './ui/button';
 import { Download, Mail, Github, Linkedin, FileText } from 'lucide-react';
 import heroIllustration from '../assets/hero-illustration.jpg';
-import ashokProfile from '../assets/ashok-profile.jpg';
+import ashokProfile from '../assets/ashok-new-profile.jpg';
 
 const Hero = () => {
   return (
