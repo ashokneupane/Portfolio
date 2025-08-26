@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
-      <nav className="container-max flex items-center justify-between py-4">
+      <nav className="container-max flex items-center justify-between py-4 px-4">
         <div className="text-2xl font-bold text-gradient">
           &lt;/Ashok&gt;
         </div>
@@ -50,7 +50,7 @@ const Header = () => {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="absolute top-full left-0 right-0 bg-background border-b border-border md:hidden">
-            <div className="container-max py-4 space-y-4">
+            <div className="container-max py-4 space-y-4 px-4 md:px-8">
               {navItems.map((item) => (
                 <a
                   key={item.name}
