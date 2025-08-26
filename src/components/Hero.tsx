@@ -80,11 +80,11 @@ const Hero = () => {
         <div className="hero-illustration">
           <div className="relative">
             {/* Profile Image */}
-            <div className="w-80 h-80 rounded-3xl overflow-hidden border-4 border-primary/20 shadow-glow mb-8">
+            <div className="w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-3xl overflow-hidden border-4 border-primary/20 shadow-glow mb-8 mx-auto">
               <img 
                 src={ashokProfile} 
                 alt="Ashok Neupane" 
-                className="w-full h-full object-cover object-top scale-110"
+                className="w-full h-full object-cover object-center scale-105 sm:object-top sm:scale-110"
               />
             </div>
             
