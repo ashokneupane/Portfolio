@@ -1,33 +1,9 @@
 import { Button } from './ui/button';
 import { Download, Mail, Github, Linkedin, FileText } from 'lucide-react';
-import { useToast } from './ui/use-toast';
 import heroIllustration from '../assets/hero-illustration.jpg';
 import ashokProfile from '../assets/ashok-new-profile.jpg';
 
 const Hero = () => {
-  const { toast } = useToast();
-
-  const handleEmailClick = async () => {
-    try {
-      // Try mailto first
-      window.location.href = 'mailto:neupaneashok8115@gmail.com';
-    } catch (error) {
-      // Fallback: copy to clipboard
-      try {
-        await navigator.clipboard.writeText('neupaneashok8115@gmail.com');
-        toast({
-          title: "Email copied to clipboard",
-          description: "neupaneashok8115@gmail.com has been copied to your clipboard.",
-        });
-      } catch (clipboardError) {
-        toast({
-          title: "Contact via email",
-          description: "Please send an email to neupaneashok8115@gmail.com",
-        });
-      }
-    }
-  };
-
   return (
     <section id="home" className="hero-section">
       <div className="hero-content">
@@ -86,13 +62,12 @@ const Hero = () => {
             >
               <Linkedin size={20} />
             </a>
-            <button 
-              onClick={handleEmailClick}
+            <a 
+              href="mailto:neupaneashok8115@gmail.com"
               className="p-3 rounded-lg bg-secondary hover:bg-primary hover:text-primary-foreground transition-smooth"
-              aria-label="Send email to neupaneashok8115@gmail.com"
             >
               <Mail size={20} />
-            </button>
+            </a>
             <a 
               href="#portfolio"
               className="p-3 rounded-lg bg-secondary hover:bg-primary hover:text-primary-foreground transition-smooth"
