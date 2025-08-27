@@ -1,7 +1,7 @@
 import { Button } from "./ui/button";
 import { Download, Mail, Github, Linkedin, FileText } from "lucide-react";
-import heroIllustration from "../assets/hero-illustration.jpg";
 import ashokProfile from "../assets/ashok-new-profile.jpg";
+import ashokCV from "../assets/Ashok_Cv.pdf";
 
 const Hero = () => {
   return (
@@ -30,6 +30,7 @@ const Hero = () => {
     {/* Buttons */}
     <div className="flex flex-wrap gap-4 justify-center md:justify-start mb-8">
       {/* Resume */}
+      <a href={ashokCV} target="_blank" rel="noopener noreferrer">
       <Button
         size="lg"
         className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-button"
@@ -37,6 +38,7 @@ const Hero = () => {
         <Download className="mr-2 h-5 w-5" />
         Resume
       </Button>
+      </a>
 
       {/* Contact */}
       <Button
